@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('C:/Users/Lenovo/Documents/birthday/Blue Illustrative Save The Ocean Presentation (2)/1.png') no-repeat center center fixed; /* Menambahkan gambar latar belakang */
+    background-size: cover; /* Memastikan gambar menutupi seluruh halaman */
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Menyebar elemen secara merata */
+    height: 100%; /* Mengisi tinggi kontainer */
+}
+
+/* Ubah teks tanpa efek 3D */
+.text-3d {
+    font-family: 'Arial', sans-serif; /* Menggunakan font Arial */
+    font-size: 4em;
+    font-weight: bold;
+    color: #00008b; /* Warna biru gelap */
+    margin: 20px 0; /* Jarak atas dan bawah */
+}
+
+/* Subteks */
+.subtext {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #8ad3d7; /* Warna putih muda */
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang putih transparan */
+    padding: 15px 30px; /* Ruang dalam kotak teks */
+    border-radius: 10px; /* Membulatkan sudut */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Bayangan di sekitar kotak teks */
+    display: inline-block; /* Agar kotak teks sesuai dengan ukuran teks */
+}
+
+/* Tombol Kado */
+.gift-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: auto; /* Memindahkan tombol ke bagian bawah */
+    background-color: #ff4081; /* Warna kado */
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Pacifico', cursive; /* Font lucu */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    border-radius: 10px; /* Membulatkan sudut */
+    transition: transform 0.2s, background-color 0.2s; /* Efek transisi */
+}
+
+.gift-button:hover {
+    transform: scale(1.1); /* Membesar tombol saat hover */
+    background-color: #ff69b4; /* Warna lebih cerah saat hover */
+}
